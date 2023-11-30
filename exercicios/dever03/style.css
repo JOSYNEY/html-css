@@ -1,0 +1,30 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+body{
+    background-image: url(../dever01/cyberpunk.png);
+    background-repeat: 'cover';
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(132, 162, 243);
+    text-decoration: none;
+    font-weight: bold;
+}
+a.visited{
+    color: darkmagenta;
+}
+a:hover{
+    color: plum;
+    text-decoration: underline;
+}
+a:active{
+    color: violet;
+}
+a::after{
+    content: ' link';
+    color: aqua;
+}

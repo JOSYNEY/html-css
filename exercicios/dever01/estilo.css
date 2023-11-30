@@ -1,0 +1,10 @@
+body{
+    background-image: url(cyberpunk.png);
+    background-repeat: cover; /*isso fará com que a imagem cubra todo o elemento pai (normalmente a janela do navegador)*/
+    background-repeat: no-repeat; /*isso evita que a imagem se repita.*/
+    background-attachment: fixed; /*isso faz com que a imagem de fundo fique fixa à medida que a página é rolada.*/
+    background-color: aliceblue;
+    color: rgb(223, 208, 235);
+    font: 25pt optional;
+    text-align: center;
+}
