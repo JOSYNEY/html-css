@@ -1,0 +1,5 @@
+body{
+    background-image: url('imagens/mascote.png');
+    background-size: 100px 100px;
+    background-repeat: no-repeat; /*no-repeat não repete a img, repeat-x na horizontal, repeat-y na vetical*/
+}
